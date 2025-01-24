@@ -25,7 +25,7 @@ Modern Design: Aesthetic UI with a black-themed background for a futuristic feel
 ![Destination Page](path/to/destination-page-screenshot.png)
 
 ## 🖥️ Live Demo :
-![Click Here to Check out the Demo](https://space-tourism-by-saidhanush.vercel.app/)
+https://space-tourism-by-saidhanush.vercel.app/
 
 
 ## 📝 How to Use :
