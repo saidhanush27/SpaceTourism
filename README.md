@@ -21,8 +21,8 @@ Modern Design: Aesthetic UI with a black-themed background for a futuristic feel
 
 ## 📸 Screenshots :
 
-![Homepage](path/to/homepage-screenshot.png)
-![Destination Page](path/to/destination-page-screenshot.png)
+![Homepage](https://github.com/saidhanush27/SpaceTourism/blob/f2b15b3875056d54aaaff88af03e3d12d695895b/Screenshot%202025-01-24%20144114.png) <br>
+![Destination Page](https://github.com/saidhanush27/SpaceTourism/blob/f2b15b3875056d54aaaff88af03e3d12d695895b/Screenshot%202025-01-24%20144137.png)
 
 ## 🖥️ Live Demo :
 https://space-tourism-by-saidhanush.vercel.app/
