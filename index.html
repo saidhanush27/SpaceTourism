@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="42x42" href="./assets/favicon.png">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Our custom CSS -->
+  <link rel="stylesheet" href="index.css">
+  <title>Space Tourism • Sai Dhanush VR</title>
+  <script src="navigation.js" defer></script>
+
+</head>
+
+<body class="home">
+
+  <video autoplay muted loop id="myVideo">
+    <source src="./assets/home/vid-1.mp4" type="video/mp4">
+  </video>
+
+  <a class="skip-to-content " href="#main">Skip to content</a>
+
+  <header class="primary-header flex">
+    <div>
+      <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
+    </div>
+
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only"
+        aria-expanded="false">Menu</span></button>
+
+    <nav>
+      <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+        <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span
+              aria-hidden="true">00</span>Home</a></li>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span
+              aria-hidden="true">01</span>Destination</a></li>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span
+              aria-hidden="true">02</span>Crew</a></li>
+        <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span
+              aria-hidden="true">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main id="main" class="grid-container grid-container--home">
+    <div>
+      <h1 class=" text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">So, you want to travel to
+        <span class="d-block fs-900 ff-serif text-white">Space</span>
+      </h1>
+
+      <p>Let’s face it; if you want to go to space, you might as well genuinely go to
+        outer space and not hover kind of on the edge of it. Well sit back, and relax
+        because we’ll give you a truly out of this world experience! </p>
+    </div>
+    <div>
+      <a href="destination.html" class="large-button uppercase ff-serif text-dark bg-white">Explore</a>
+    </div>
+  </main>
+  <footer class="primary-footer">
+    <p class="footer-text">© 2025 Sai Dhanush VR | Space Tourism. All Rights Reserved.</p>
+  </footer>
+  
+  <style>
+    /* Footer styling */
+    .primary-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+      color: #fff;
+      text-align: center;
+      padding: 0.5rem 0;
+      font-size: 0.875rem; /* Smaller font size */
+      z-index: 10; /* Ensure it appears above the video */
+    }
+  
+    .footer-text {
+      margin: 0;
+      font-family: 'Barlow', sans-serif;
+      letter-spacing: 0.05em;
+    }
+  
+    /* Ensure footer does not block interaction with links or buttons */
+    .primary-footer a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+    .primary-footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+</body>
+
+</html>  
